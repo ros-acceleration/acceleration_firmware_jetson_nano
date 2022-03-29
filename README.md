@@ -1,13 +1,13 @@
-# acceleration_firmware_jetson_nano
+# `acceleration_firmware_jetson_nano`
 
-| Board | Picture | Description | 
+| Board | Picture | Description |
 |------------|-------|-------------|
 | [Jetson Nano Developer Kit](https://developer.nvidia.com/embedded/jetson-nano-developer-kit) | ![](https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/JetsonNano-DevKit_Front-Top_Right_trimmed.jpg) | NVIDIA® Jetson Nano™ Developer Kit is a small, powerful computer that lets you run multiple neural networks in parallel for applications like image classification, object detection, segmentation, and speech processing. All in an easy-to-use platform that runs in as little as 5 watts.  |
 
 
 This repository provides firmware artifacts for the NVIDIA Jetson Nano board meant to accelerate ROS 2 robotic applications.
 
-<ins>**NOTE**</ins>: *This repository is has various **GB** of data. Due to GitHub size restrictions, the whole source code is available under [releases](https://github.com/ros-acceleration/acceleration_firmware_kv260/releases)*. *Refer to each corresponding's release `firmware/ARTIFACTS.md` (if available) file for a description of all the artifacts included*.
+<ins>**NOTE**</ins>: *This repository is has various **GB** of data. Due to GitHub size restrictions, the whole source code is available under [releases](https://github.com/ros-acceleration/acceleration_firmware_jetson_nano/releases)*. *Refer to each corresponding's release `firmware/ARTIFACTS.md` (if available) file for a description of all the artifacts included*.
 
 ## Hardware Acceleration capabilities
 
