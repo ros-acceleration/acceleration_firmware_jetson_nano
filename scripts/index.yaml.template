@@ -1,0 +1,2 @@
+mixin:
+  - jetson_nano.mixin

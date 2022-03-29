@@ -1,0 +1,20 @@
+build:
+  jetson_nano:
+    cmake-args:
+      - "-DCMAKE_SYSTEM_NAME=Linux"
+      - "-DCMAKE_SYSTEM_VERSION=1"
+      - "-DCMAKE_SYSTEM_PROCESSOR=aarch64"
+      - "-DCMAKE_C_COMPILER=ARG1_FIRMWARE_DIR/sysroots/x86_64-tdsdk-linux/usr/bin/aarch64-oe4t-linux/aarch64-oe4t-linux-gcc"
+      - "-DCMAKE_CXX_COMPILER=ARG1_FIRMWARE_DIR/sysroots/x86_64-tdsdk-linux/usr/bin/aarch64-oe4t-linux/aarch64-oe4t-linux-g++"
+      - "-DCMAKE_SYSROOT=ARG1_FIRMWARE_DIR/sysroots/armv8a-oe4t-linux"
+      - "-DCMAKE_FIND_ROOT_PATH=ARG3_INSTALL_DIR-jetson_nano"
+      - "-DCMAKE_INSTALL_RPATH=ARG1_FIRMWARE_DIR/sysroots/armv8a-oe4t-linux/usr/lib"
+      - "-DCMAKE_INSTALL_RPATH_USE_LINK_PATH=TRUE"
+      - "-DCMAKE_FIND_ROOT_PATH_MODE_PROGRAM=NEVER"
+      - "-DCMAKE_FIND_ROOT_PATH_MODE_PACKAGE=ONLY"
+      - "-DCMAKE_FIND_ROOT_PATH_MODE_LIBRARY=ONLY"
+      - "-DCMAKE_FIND_ROOT_PATH_MODE_INCLUDE=ONLY"
+      - "-DPYTHON_SOABI=cpython-37m-aarch64-linux-gnu"
+      - "-DTHREADS_PTHREAD_ARG=0"
+      - "--no-warn-unused-cli"
+      - "-DROS_CUDA_TARGET=TRUE"
