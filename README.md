@@ -7,7 +7,8 @@
 
 This repository provides firmware artifacts for the NVIDIA Jetson Nano board meant to accelerate ROS 2 robotic applications.
 
-<ins>**NOTE**</ins>: *This repository is has various **GB** of data. Due to GitHub size restrictions, the whole source code is available under [releases](https://github.com/ros-acceleration/acceleration_firmware_jetson_nano/releases)*. *Refer to each corresponding's release `firmware/ARTIFACTS.md` (if available) file for a description of all the artifacts included*.
+<ins>**NOTE**</ins>: *The binaries in this repo take various **GB** of data. Due to GitHub size restrictions, the whole source code is available in the following links*:
+- [`acceleration_firmware_jetson_nano_0.1.0.zip`](https://drive.google.com/file/d/1Ry9qgRqOGp0FLywqutEhItnI-i82lZfs/view?usp=sharing) (3 GB)
 
 ## Hardware Acceleration capabilities
 
